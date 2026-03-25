@@ -9,8 +9,30 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
+.imgContainer {
+    background-color: hsl(0, 0%, 65%, 0.8);
+    width: 40dvw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 150px;
+}
+.credits {
+    position: absolute;
+    top: 78dvh;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color: hsl(0, 0%, 45%, 0.8);
+    width: 100%;
+}
+img {
+    width: 150px;
+}
 .container {
     display: flex;
     flex-direction: column;
