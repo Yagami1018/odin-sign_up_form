@@ -19,11 +19,11 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 150px;
+    bottom: 196px;
 }
 .credits {
     position: absolute;
-    top: 78dvh;
+    top: 85dvh;
     text-align: center;
     color: white;
     font-weight: bolder;
