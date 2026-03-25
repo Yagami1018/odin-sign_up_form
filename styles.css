@@ -71,6 +71,14 @@ fieldset > div {
 .inputs input {
     width: 75%;
     margin-bottom: 10px;
+    text-align: center;
+}
+.inputs input:focus {
+    outline-color: blue;
+    box-shadow: 0 3px 3px hsl(0, 0%, 0%, 0.5);
+}
+.inputs input:invalid {
+    outline-color: red;
 }
 .inputs * {
     font-size: 1.5rem;
