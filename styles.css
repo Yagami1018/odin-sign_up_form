@@ -1,0 +1,39 @@
+:root {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(assets/sam-roy-tmxMjtUD658-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20%;
+    margin: 0;
+    width: 60vw;
+    height: 100vh;
+    background-color: white;
+    justify-self: end;
+}
+.header {
+    margin: 0;
+}
+.header p {
+    margin-top: 0;
+}
+.inputs fieldset {
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+}
+.inputs fieldset legend {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
